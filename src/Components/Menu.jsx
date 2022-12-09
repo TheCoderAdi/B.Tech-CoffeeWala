@@ -33,7 +33,7 @@ const Menu = () => {
             }}
           >
             <img src={menu_one} alt="" />
-            <h3>tasty and healty</h3>
+            <h3>Americano</h3>
             <div className="price">
               $15.99 <span>20.99</span>
             </div>
@@ -46,7 +46,7 @@ const Menu = () => {
             }}
           >
             <img src={menu_two} alt="" />
-            <h3>tasty and healty</h3>
+            <h3>Cortado</h3>
             <div className="price">
               $15.99 <span>20.99</span>
             </div>
@@ -60,7 +60,7 @@ const Menu = () => {
             }}
           >
             <img src={menu_three} alt="" />
-            <h3>tasty and healty</h3>
+            <h3>Mocha</h3>
             <div className="price">
               $15.99 <span>20.99</span>
             </div>
@@ -74,7 +74,7 @@ const Menu = () => {
             }}
           >
             <img src={menu_four} alt="" />
-            <h3>tasty and healty</h3>
+            <h3>Macchiato</h3>
             <div className="price">
               $15.99 <span>20.99</span>
             </div>
@@ -88,7 +88,7 @@ const Menu = () => {
             }}
           >
             <img src={menu_five} alt="" />
-            <h3>tasty and healty</h3>
+            <h3>Decaf</h3>
             <div className="price">
               $15.99 <span>20.99</span>
             </div>
@@ -102,7 +102,7 @@ const Menu = () => {
             }}
           >
             <img src={menu_six} alt="" />
-            <h3>tasty and healty</h3>
+            <h3>Drip Coffee</h3>
             <div className="price">
               $15.99 <span>20.99</span>
             </div>
