@@ -1,0 +1,58 @@
+@import "app.scss";
+
+.menuHeading {
+  text-align: center;
+  color: white;
+  font-size: 4.5rem;
+  margin: 3rem 0;
+  span {
+    color: $maincolor;
+  }
+}
+
+.heroMenu {
+  // width: 100%;
+  // min-height: 90vh;
+
+  .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+
+    .box {
+      padding: 5rem;
+      text-align: center;
+      border: $border;
+
+      img {
+        height: 9rem;
+      }
+
+      h3 {
+        color: #fff;
+        font-size: 1.4 rem;
+        padding: 1rem 0;
+      }
+
+      .price {
+        color: #fff;
+        font-size: 2rem;
+        padding: 0.5rem 0;
+
+        span {
+          font-size: 1.5rem;
+          text-decoration: line-through;
+          font-weight: lighter;
+        }
+      }
+
+      &:hover {
+        background: #fff;
+
+        * {
+          color: $black;
+        }
+      }
+    }
+  }
+}

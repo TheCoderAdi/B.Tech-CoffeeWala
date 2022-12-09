@@ -1,0 +1,30 @@
+@import "app.scss";
+
+.footer {
+  height: 13vh;
+  width: 100%;
+  background-color: $black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+
+  .logos {
+    display: flex;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    gap: 1rem;
+
+    svg {
+      cursor: pointer;
+    }
+  }
+
+  > h4 {
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,19 @@
+@import "app.scss";
+
+.reviewHeading {
+  color: $maincolor;
+  text-align: center;
+  font-size: 4.5rem;
+  margin: 3rem 0;
+  span {
+    color: white;
+  }
+}
+
+.heroReview {
+  .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+  }
+}

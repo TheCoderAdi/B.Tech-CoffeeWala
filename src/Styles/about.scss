@@ -1,0 +1,83 @@
+@import "app.scss";
+
+.aboutHeading {
+  color: white;
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 4.5rem;
+
+  span {
+    color: $maincolor;
+  }
+}
+
+.heroAbout {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .leftImg {
+      //   width: 40vw;
+      //   height: 60vh;
+
+      img {
+        width: 40vw;
+        height: 60vh;
+      }
+    }
+
+    .rightContent {
+      background-color: $black;
+      height: 60vh;
+      width: 60vw;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+
+      h1 {
+        color: white;
+        text-align: center;
+        font-size: 3.5rem;
+      }
+
+      p {
+        color: white;
+        text-align: center;
+        font-size: 1.7rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .heroAbout {
+    .container {
+      flex-direction: column;
+
+      .leftImg {
+        height: 40vh;
+        width: 80%;
+
+        img {
+          width: 70vw;
+          height: 40vh;
+        }
+      }
+
+      .rightContent {
+        height: 50vh;
+        width: 70vw;
+
+        h1 {
+          font-size: 3rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

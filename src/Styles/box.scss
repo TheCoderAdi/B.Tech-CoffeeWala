@@ -1,0 +1,30 @@
+@import "../Styles/app.scss";
+
+.box {
+  border: $border;
+  padding: 5rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+
+  .user {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  p {
+    color: white;
+    font-size: 2rem;
+  }
+
+  h3 {
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #fff;
+  }
+}

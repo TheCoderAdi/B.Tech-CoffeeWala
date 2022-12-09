@@ -1,0 +1,90 @@
+@import "app.scss";
+
+.headingContact {
+  color: white;
+  text-align: center;
+  font-size: 4.5rem;
+  margin: 3rem 0;
+
+  span {
+    color: $maincolor;
+  }
+}
+
+.color {
+  color: black;
+}
+
+.heroContact {
+  width: 100%;
+
+  .boxContact {
+    min-height: 50vh;
+    border: $border;
+    background-color: $black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    > input {
+      padding: 1.5rem 0;
+      margin: 1rem 0;
+      font-size: 1.5rem;
+      width: 35%;
+      background-color: $black;
+      color: white;
+      text-align: start;
+      border: 2px solid $maincolor;
+    }
+
+    > textarea {
+      margin: 1rem 0;
+      width: 35%;
+      background-color: $black;
+      color: white;
+      border: 2px solid $maincolor;
+      font-size: 1.8rem;
+    }
+
+    .btn {
+      border: 2px solid $maincolor;
+      padding: 1.8rem 3rem;
+      color: $maincolor;
+      background-color: $black;
+      cursor: pointer;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+
+      &:hover {
+        background-color: $maincolor;
+        color: $black;
+      }
+    }
+  }
+}
+@media (max-width: 850px) {
+  .heroContact {
+    .boxContact {
+      > input {
+        width: 70%;
+      }
+      > textarea {
+        width: 70%;
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .heroContact {
+    .boxContact {
+      > input {
+        width: 80%;
+      }
+      > textarea {
+        width: 80%;
+      }
+    }
+  }
+}
